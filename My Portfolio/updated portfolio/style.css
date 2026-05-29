@@ -401,4 +401,38 @@ span {
 .footer-iconTop a i {
   font-size: 2.4rem;
   color: var(--second-bg-color);
-} /* BREAKPOINTS */
+} /* BREAKPOINTS */ 
+
+.social-media {
+  display: flex;
+  gap: 1.5rem;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+}
+
+.social-media a {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 4rem;
+  height: 4rem;
+  background: transparent;
+  border: 0.2rem solid #0ef;
+  border-radius: 50%;
+  font-size: 2rem;
+  color: #0ef;
+  text-decoration: none;
+  transition: 0.5s ease;
+}
+
+.social-media a:hover {
+  background: #0ef;
+  color: #1f242d;
+  box-shadow: 0 0 1rem #0ef;
+}
+.leetcode-icon {
+  width: 22px;
+  height: 22px;
+  filter: invert(73%) sepia(97%) saturate(1318%) hue-rotate(147deg)
+    brightness(103%) contrast(101%);
+}
